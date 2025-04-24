@@ -1,0 +1,94 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+.alert {
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    border-top: none;
+}
+
+.btn-primary {
+    padding: 8px 16px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+    border-color: #80bdff;
+}
+
+/* Custom styles for the AI insights */
+.alert-info {
+    background-color: #e8f4f8;
+    border-color: #bee5eb;
+    color: #0c5460;
+}
+
+.fa-lightbulb-o {
+    color: #ffc107;
+    margin-right: 8px;
+}
+
+/* Chart container styles */
+#expenseChart {
+    min-height: 300px;
+}
+
+/* Month selector styling */
+.dropdown-toggle::after {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.dropdown-item.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Expenses-by-category section styling */
+.expenses-by-category {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .table-responsive {
+        margin: 0;
+    }
+    
+    .dropdown-toggle {
+        font-size: 0.8rem;
+    }
+}
